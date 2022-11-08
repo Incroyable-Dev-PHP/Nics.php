@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html Lang="fr">
-        
+<head>     
     <?php include "./includes/head.html"; ?>
-        
-    <body>
+</head>
+<body>
+    <header>
         <?php
-            include "./includes/header.html";
-    
-        ?>
+            include "./includes/header.html";?>
+    </header>
         <main class="container">
             <?php
                 if (isset($_GET["about-me"])) {
@@ -24,9 +24,10 @@
                     return;
                 }
             ?>
-       </main>
-
-       <?php include "./includes/footer.html"; ?>
+        </main>
+        <footer>
+            <?php include "./includes/footer.html"; ?>
+        </footer>
     </body>
 
 </html>
