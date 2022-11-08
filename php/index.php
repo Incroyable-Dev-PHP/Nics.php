@@ -6,7 +6,7 @@
     <body>
         <?php
             include "./includes/header.html";
-            include "./includes/nav.html";
+    
         ?>
         <main class="container">
             <?php
